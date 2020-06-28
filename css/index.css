@@ -142,11 +142,28 @@ button:hover{
     }
 
     nav a{
-    font-size: 1.7rem;
-}
+        font-size: 1.7rem;
+    }
 
     nav span {
         border-left: 2px solid #626262;
     }
+
+    .title-container div {
+        background-size: 200% 200%;
+        width: 100%;
+        margin-bottom: 1%;
+    }
+    
+    .title-container hr {
+        width: 100%;
+    }
+
+    h1 {
+        font-size:4rem;
+        line-height: 1.1;
+        margin-bottom: 10px;
+
+}
 
 }

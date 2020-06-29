@@ -270,11 +270,13 @@ function get20s(array){
     yearsArray.push(element.years.split(" - "));
     // console.log(yearsArray);
       // if dates bn/ 1900-2000 push array[i].name to new array
-      for (let i = 0; i < yearsArray.length; i++) {
-        const year = yearsArray[i];
-        if (Number(year) >= 1900 || Number(year) <= 2000) {
+      for (let index = 0; index < yearsArray.length; index++) {
+        const year = yearsArray[index];
+        // console.log(year);
+        if (Number(year[index]) >= 1900 && Number(year[index]) <= 2000) {
+          // console.log(element.name);
           newArray.push(element.name);
-          console.log(newArray);
+          // console.log(newArray);
         }
         
       }
